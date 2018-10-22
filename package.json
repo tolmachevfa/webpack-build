@@ -1,0 +1,35 @@
+{
+  "name": "layout",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "webpack-dev-server --env development",
+    "build": "webpack --env production",
+    "server": "static build",
+    "test:lint": "eslint . --cache"
+  },
+  "devDependencies": {
+    "css-loader": "^1.0.0",
+    "eslint": "^5.7.0",
+    "eslint-loader": "^2.1.1",
+    "extract-text-webpack-plugin": "^4.0.0-beta.0",
+    "file-loader": "^2.0.0",
+    "html-webpack-plugin": "^3.2.0",
+    "node-sass": "^4.9.4",
+    "node-static": "^0.7.11",
+    "pug": "^2.0.3",
+    "pug-loader": "^2.4.0",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.23.1",
+    "webpack": "^4.22.0",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^3.1.9",
+    "webpack-merge": "^4.1.4"
+  },
+  "dependencies": {
+    "jquery": "^3.3.1",
+    "normalize.css": "^8.0.0",
+    "uglifyjs-webpack-plugin": "^2.0.1"
+  }
+}

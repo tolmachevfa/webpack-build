@@ -5,17 +5,17 @@ module.exports = {
     es6: true,
     node: true
   },
-  extends: "eslint:recommended",
+  extends: 'eslint:recommended',
   parserOptions: {
-    sourceType: "module"
+    sourceType: 'module'
   },
   rules: {
-    "comma-dangle": ["error", "always-multiline"],
-    indent: ["error", 2],
-    quotes: ["error", "single"],
-    semi: ["error", "always"],
-    "no-unused-vars": ["warn"],
-    "no-console": 0
+    'comma-dangle': ['error', 'never'],
+    indent: ['error', 2],
+    quotes: ['error', 'single'],
+    semi: ['error', 'always'],
+    'no-unused-vars': ['warn'],
+    'no-console': 0
   },
   globals: {
     $: true,

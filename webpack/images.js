@@ -6,10 +6,10 @@ module.exports = function() {
           test: /\.(jpg|png|svg)$/,
           loader: 'file-loader',
           options: {
-            name: 'image/[name].[ext]',
-          },
-        },
-      ],
-    },
+            name: 'image/[name].[ext]'
+          }
+        }
+      ]
+    }
   };
 };

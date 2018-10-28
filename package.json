@@ -2,15 +2,20 @@
   "name": "layout",
   "version": "1.0.0",
   "main": "index.js",
-  "license": "MIT",
+  "license": "",
   "scripts": {
-    "start": "webpack-dev-server --env development",
-    "build": "webpack --env production",
+    "start": "webpack-dev-server --env development --mode=development",
+    "build": "webpack --env production --mode=production",
     "server": "static build",
     "test:lint": "eslint . --cache"
   },
   "devDependencies": {
     "css-loader": "^1.0.0",
+    "postcss-loader": "^3.0.0",
+    "@babel/core": "^7.1.2",
+    "autoprefixer": "^9.3.1",
+    "babel-loader": "^8.0.4",
+    "babel-preset-env": "^1.7.0",
     "eslint": "^5.7.0",
     "eslint-loader": "^2.1.1",
     "extract-text-webpack-plugin": "^4.0.0-beta.0",
@@ -33,3 +38,4 @@
     "uglifyjs-webpack-plugin": "^2.0.1"
   }
 }
+

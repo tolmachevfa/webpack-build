@@ -7,9 +7,9 @@ module.exports = function({ paths, options }) {
           include: paths,
           enforce: 'pre',
           loader: 'eslint-loader',
-          options: options,
-        },
-      ],
-    },
+          options: options
+        }
+      ]
+    }
   };
 };
